@@ -46,8 +46,8 @@ export default function Dashboard () {
                                 <CartesianGrid />
                                 <XAxis dataKey="name" />
                                 <YAxis domain={[40, 100]} />
-                                <Tooltip />
-                                <Line dataKey="value" stroke='green' strokeWidth={2}/>
+                                <Tooltip isAnimationActive={false} />
+                                <Line dataKey="value" stroke='green' strokeWidth={2} isAnimationActive={false}/>
                             </LineChart>
                         </ResponsiveContainer>
                     </div>

@@ -1,7 +1,17 @@
 // @ts-check
 /// <reference types="vite/client" />
 
-import '../css/dashboard/classPerformance.css';
+/**
+ * MOCK COMPONENT
+ * ----------------
+ * Static dashboard prototype. Contains hardcoded layout and data.
+ * Intended for UI review and design validation only.
+ * See: src/mock/README.md
+ */
+// @ts-check
+/// <reference types="vite/client" />
+
+import './css/classPerformance.css';
 import { Area, AreaChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 
 const data = [
@@ -67,3 +77,4 @@ export default function ClassPerformance () {
         </section>
     );
 }
+

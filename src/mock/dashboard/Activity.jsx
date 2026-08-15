@@ -1,7 +1,17 @@
 // @ts-check
 /// <reference types="vite/client" />
 
-import '../css/dashboard/activity.css';
+/**
+ * MOCK COMPONENT
+ * ----------------
+ * Static dashboard prototype. Contains hardcoded layout and data.
+ * Intended for UI review and design validation only.
+ * See: src/mock/README.md
+ */
+// @ts-check
+/// <reference types="vite/client" />
+
+import './css/activity.css';
 import { IconFilePencil } from "@tabler/icons-react";
 
 export default function Activity () {
@@ -71,3 +81,4 @@ export default function Activity () {
         </section>
     );
 }
+

@@ -4,7 +4,7 @@
 import './index.css';
 import { Route, Routes } from 'react-router-dom';
 
-import Dashboard from './pages/dashboard/Dashboard.jsx';
+import Dashboard from './mock/dashboard/Dashboard.jsx';
 import Classes from './pages/Classes.jsx';
 import Quizzes from './pages/Quizzes.jsx';
 import Reports from './pages/Reports.jsx';

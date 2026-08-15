@@ -9,4 +9,4 @@ npm install react react-dom react-router-dom recharts @tabler/icons-react @vitej
 npm run dev
 ```
 
-Visit: https://localhost:5173/...
+Visit: `https://localhost:5173/...`

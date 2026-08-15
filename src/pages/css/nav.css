@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-right: 3rem;
+
+    border-bottom: 1px solid black;
+}
+
+header img {
+    height: 50px;
+}
+
+header ul {
+    display: flex;
+
+    gap: 5rem;
+
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+
+    color: black;
+}

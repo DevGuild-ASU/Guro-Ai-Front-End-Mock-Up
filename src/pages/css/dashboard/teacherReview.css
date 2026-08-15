@@ -35,9 +35,25 @@
     background-color: #cdcdcd;
 }
 
+.student-table th:first-child {
+    border-top-left-radius: 0.5rem;
+}
+
+.student-table th:nth-last-child(2) {
+    border-top-right-radius: 0.5rem;
+}
+
 .student-table th:last-child {
     border-bottom: 2px solid transparent;
     background-color: transparent;
+}
+
+.student-table td {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.student-table td:last-child {
+    border-bottom: 2px solid transparent;
 }
 
 .student-review-btn {

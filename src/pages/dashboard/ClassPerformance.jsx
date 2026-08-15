@@ -2,7 +2,7 @@
 /// <reference types="vite/client" />
 
 import '../css/dashboard/classPerformance.css';
-import { Area, AreaChart, CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
+import { Area, AreaChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 
 const data = [
     { name: 'Week 1', value: 55 },

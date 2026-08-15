@@ -11,7 +11,7 @@ const root = /** @type {HTMLElement} */ (document.getElementById('root'));
 
 createRoot(root).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/my-app'>
       <Nav />
       <App />
     </BrowserRouter>

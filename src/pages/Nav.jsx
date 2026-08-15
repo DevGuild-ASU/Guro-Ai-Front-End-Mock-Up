@@ -7,7 +7,9 @@ import { NavLink } from "react-router-dom";
 export default function Nav () {
     return (
         <header>
-            <img src="./logo.png" />
+            <NavLink to="/dashboard">
+                <img src="logo.png" />
+            </NavLink>
 
             <ul>
                 <li>

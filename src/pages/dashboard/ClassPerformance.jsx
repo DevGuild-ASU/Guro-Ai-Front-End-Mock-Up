@@ -12,8 +12,8 @@ const data = [
     { name: 'Week 9', value: 65 },
     { name: 'Week 11', value: 68 },
     { name: 'Week 13', value: 69 },
-    { name: 'Week 13', value: 65 },
-    { name: 'Week 15', value: 75 }
+    { name: 'Week 15', value: 65 },
+    { name: 'Week 17', value: 75 }
 ];
 
 export default function ClassPerformance () {

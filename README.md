@@ -10,3 +10,12 @@ npm run dev
 ```
 
 Visit: `https://localhost:5173/...`
+
+## Migration to live
+
+Switch out `my-app` in `package.json` and `main.jsx` with the corresponding base link.
+
+Example:
+
+- `https://io.github.bfur64/hello-world/` becomes `hello-world` in the files.
+- `https://google.com/youtube-fake/` becomes `youtube-fake` in the files.

@@ -1,7 +1,17 @@
 // @ts-check
 /// <reference types="vite/client" />
 
-import '../css/dashboard/teacherReview.css';
+/**
+ * MOCK COMPONENT
+ * ----------------
+ * Static dashboard prototype. Contains hardcoded layout and data.
+ * Intended for UI review and design validation only.
+ * See: src/mock/README.md
+ */
+// @ts-check
+/// <reference types="vite/client" />
+
+import './css/teacherReview.css';
 
 export default function TeacherReview () {
     return (
@@ -64,3 +74,4 @@ export default function TeacherReview () {
         </section>
     );
 }
+

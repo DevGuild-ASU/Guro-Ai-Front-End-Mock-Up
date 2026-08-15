@@ -1,7 +1,17 @@
 // @ts-check
 /// <reference types="vite/client" />
 
-import '../css/dashboard/depEd.css';
+/**
+ * MOCK COMPONENT
+ * ----------------
+ * Static dashboard prototype. Contains hardcoded layout and data.
+ * Intended for UI review and design validation only.
+ * See: src/mock/README.md
+ */
+// @ts-check
+/// <reference types="vite/client" />
+
+import './css/depEd.css';
 
 export default function DepEd () {
     return (
@@ -83,3 +93,4 @@ export default function DepEd () {
         </section>
     );
 }
+

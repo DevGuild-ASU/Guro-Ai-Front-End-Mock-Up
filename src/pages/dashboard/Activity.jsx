@@ -13,7 +13,9 @@ export default function Activity () {
 
                 <div className="quiz-group">
                     <div className="quiz-information">
-                        <IconFilePencil />
+                        <div className="quiz-icon">
+                            <IconFilePencil />
+                        </div>
                         <h4>Grade 9: Section 5</h4>
                     </div>
 
@@ -22,7 +24,9 @@ export default function Activity () {
 
                 <div className="quiz-group">
                     <div className="quiz-information">
-                        <IconFilePencil />
+                        <div className="quiz-icon">
+                            <IconFilePencil />
+                        </div>
                         <h4>Grade 9: Section 3</h4>
                     </div>
 
@@ -31,7 +35,9 @@ export default function Activity () {
 
                 <div className="quiz-group">
                     <div className="quiz-information">
-                        <IconFilePencil />
+                        <div className="quiz-icon">
+                            <IconFilePencil />
+                        </div>
                         <h4>Grade 9: Section 2</h4>
                     </div>
 
@@ -42,7 +48,9 @@ export default function Activity () {
 
                 <div className="quiz-group">
                     <div className="quiz-information">
-                        <IconFilePencil />
+                        <div className="quiz-icon">
+                            <IconFilePencil />
+                        </div>
                         <h4>Grade 9: Section 4</h4>
                     </div>
 
@@ -51,7 +59,9 @@ export default function Activity () {
 
                 <div className="quiz-group">
                     <div className="quiz-information">
-                        <IconFilePencil />
+                        <div className="quiz-icon">
+                            <IconFilePencil />
+                        </div>
                         <h4>Grade 9: Section 2</h4>
                     </div>
 

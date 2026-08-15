@@ -1,7 +1,7 @@
 // @ts-check
 /// <reference types="vite/client" />
 
-import '../css/dashboard/depEdForm.css';
+import '../css/dashboard/depEd.css';
 
 export default function DepEd () {
     return (

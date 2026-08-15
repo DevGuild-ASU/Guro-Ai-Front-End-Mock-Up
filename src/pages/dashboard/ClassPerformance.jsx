@@ -2,7 +2,7 @@
 /// <reference types="vite/client" />
 
 import '../css/dashboard/classPerformance.css';
-import { CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
+import { Area, AreaChart, CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 
 const data = [
     { name: 'Week 1', value: 55 },
@@ -38,14 +38,30 @@ export default function ClassPerformance () {
             </div>
 
             <div className="graph">
-                <ResponsiveContainer>
-                    <LineChart data={data}>
-                        <CartesianGrid />
+                <ResponsiveContainer width="100%" height="100%">
+                    <AreaChart data={data}>
+                        <defs>
+                            <linearGradient id="fillGradient" x1="0" y1="0" x2="0" y2="1">
+                                <stop offset="0%" stopColor="green" stopOpacity={0.4} />
+                                <stop offset="100%" stopColor="green" stopOpacity={0} />
+                            </linearGradient>
+                        </defs>
+
+                        <CartesianGrid vertical={false}/>
                         <XAxis dataKey="name" />
                         <YAxis domain={[40, 100]} />
                         <Tooltip isAnimationActive={false} />
-                        <Line dataKey="value" stroke='green' strokeWidth={2} isAnimationActive={false}/>
-                    </LineChart>
+
+                        <Area
+                            dataKey="value"
+                            stroke="green"
+                            strokeWidth={2}
+                            fill="url(#fillGradient)"
+                            fillOpacity={1}
+                            dot
+                            isAnimationActive={false}
+                        />
+                    </AreaChart>
                 </ResponsiveContainer>
             </div>
         </section>

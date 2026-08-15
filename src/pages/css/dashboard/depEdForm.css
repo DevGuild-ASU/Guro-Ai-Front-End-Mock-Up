@@ -1,7 +1,44 @@
 .deped-form {
     flex: 2;
+
+    height: 100%;
     min-height: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 1rem;
 
     border: 1px solid black;
     border-radius: 1rem;
+}
+
+.deped-form h2 {
+    margin-top: 0;
+}
+
+.report-container {
+    height: 100%;
+    overflow: auto;
+}
+
+.report-table {
+    width: 100%;
+
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.report-table th {
+    border-top: 1px solid black;
+    background-color: #cdcdcd;
+}
+
+.report-table tr:last-child td {
+    border-bottom: 1px solid black;
+}
+
+.report-btn {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
 }

@@ -19,8 +19,6 @@
 }
 
 .student-table-container {
-    min-height: 0;
-
     overflow: auto;
 }
 

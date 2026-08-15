@@ -28,11 +28,11 @@ export default function ClassPerformance () {
                 <div className="class-section">
                     <p>Section:</p>
                     <select>
-                        <option value="">Grade 9: Section 1</option>
-                        <option value="">Grade 9: Section 2</option>
-                        <option value="">Grade 9: Section 3</option>
-                        <option value="">Grade 9: Section 4</option>
-                        <option value="">Grade 9: Section 5</option>
+                        <option>Grade 9: Section 1</option>
+                        <option>Grade 9: Section 2</option>
+                        <option>Grade 9: Section 3</option>
+                        <option>Grade 9: Section 4</option>
+                        <option>Grade 9: Section 5</option>
                     </select>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 // @ts-check
 /// <reference types="vite/client" />
 
+import { IconFilePencil } from '@tabler/icons-react';
 import './css/dashboard.css';
 
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
@@ -31,11 +32,11 @@ export default function Dashboard () {
                         <div className="class-section">
                             <p>Section:</p>
                             <select>
-                                <option value="">Grade 9 - Section 1</option>
-                                <option value="">Grade 9 - Section 2</option>
-                                <option value="">Grade 9 - Section 3</option>
-                                <option value="">Grade 9 - Section 4</option>
-                                <option value="">Grade 9 - Section 5</option>
+                                <option value="">Grade 9: Section 1</option>
+                                <option value="">Grade 9: Section 2</option>
+                                <option value="">Grade 9: Section 3</option>
+                                <option value="">Grade 9: Section 4</option>
+                                <option value="">Grade 9: Section 5</option>
                             </select>
                         </div>
                     </div>
@@ -52,8 +53,58 @@ export default function Dashboard () {
                         </ResponsiveContainer>
                     </div>
                 </section>
-                <section className="recent-activity">
+                <section className="activity">
+                    <h2>Recent Activity</h2>
+                    <div className="activity-container">
+                        <h3>Upcoming Quizzes</h3>
 
+                        <div className="quiz-group">
+                            <div className="quiz-information">
+                                <IconFilePencil />
+                                <h4>Grade 9: Section 5</h4>
+                            </div>
+
+                            <p>n/a</p>
+                        </div>
+
+                        <div className="quiz-group">
+                            <div className="quiz-information">
+                                <IconFilePencil />
+                                <h4>Grade 9: Section 3</h4>
+                            </div>
+
+                            <p>n/a</p>
+                        </div>
+
+                        <div className="quiz-group">
+                            <div className="quiz-information">
+                                <IconFilePencil />
+                                <h4>Grade 9: Section 2</h4>
+                            </div>
+
+                            <p>n/a</p>
+                        </div>
+
+                        <h3>Completed Quizzes</h3>
+
+                        <div className="quiz-group">
+                            <div className="quiz-information">
+                                <IconFilePencil />
+                                <h4>Grade 9: Section 4</h4>
+                            </div>
+
+                            <p>76.0</p>
+                        </div>
+
+                        <div className="quiz-group">
+                            <div className="quiz-information">
+                                <IconFilePencil />
+                                <h4>Grade 9: Section 2</h4>
+                            </div>
+
+                            <p>63.0</p>
+                        </div>
+                    </div>
                 </section>
             </div>
             <div className="summary-bottom">

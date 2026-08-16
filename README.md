@@ -5,7 +5,7 @@
 ```console
 npm update
 npm upgrade
-npm install react react-dom react-router-dom recharts @tabler/icons-react @vitejs/plugin-react
+npm ci
 npm run dev
 ```
 

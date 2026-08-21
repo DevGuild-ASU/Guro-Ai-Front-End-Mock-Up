@@ -1,5 +1,6 @@
 
 import 'screens/student_home_screen.dart';
+import 'screens/teacher/teacher_role_switcher_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -103,6 +104,27 @@ class WelcomeScreen extends StatelessWidget {
               ),
 
               const SizedBox(height: 14),
+
+              TextButton.icon(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const TeacherRoleSwitcherScreen(),
+                    ),
+                  );
+                },
+                icon: const Icon(Icons.swap_horiz_rounded, size: 18),
+                label: const Text(
+                  'Switch to Teacher Mode (Demo)',
+                  style: TextStyle(
+                    fontSize: 13,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+
+              const SizedBox(height: 4),
 
               const Text(
                 'Student Demo • Mock Data Only',
